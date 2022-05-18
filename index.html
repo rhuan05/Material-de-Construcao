@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="modeloNovoProduto">
+        <div class="fileira--elemento">
+            <img class="imagemProduto" src="" />
+            <h3 class="nomeProduto"></h3>
+            <h3 class="precoProduto"></h3>
+        </div>
+    </div>
+    <div id="modeloProdutoEscolhido">
+        <div id="imgEscolhida">
+            <img src="" />
+        </div>
+        <div id="textosEscolhido">
+            <div id="fecharEscolhido">X</div>
+            <div id="nomeEscolhido"></div>
+            <div id="precoEscolhido"></div>
+            <button id="btnEscolhido">Entrar em contato</button>
+        </div>
+    </div>
+    <header>
+        <div id="logo">JF</div>
+        <nav>
+            <a href="/" class="headerLink">HOME</a>
+            <a href="/" class="headerLink">CONTATO</a>
+            <a href="/" class="headerLink">PRODUTOS</a>
+        </nav>
+        <div id="menuCelular"></div>
+    </header>
+    <main>
+        <a href="/" id="contatoWpp">
+            <img  class="logoWpp" src="assets/whatsapp_logo.png" />
+            <p class="paragrafoWpp">Clique aqui e fale conosco</p>
+        </a>
+        <section id="banner"></section>
+        <section id="eletrica" class="sectionProdutos">
+            <h2 class="tituloSection">Elétrica</h2>
+            <div class="fileira"></div>
+        </section>
+        <section id="hidraulica" class="sectionProdutos">
+            <h2 class="tituloSection">Hidráulica</h2>
+            <div class="fileira"></div>
+        </section>
+        <section id="localizacao" class="sectionProdutos">
+            <h2 id="tituloLocalizacao">Onde estamos localizados?</h2>
+            <address id="paragrafoLocalizacao">Você pode nos encontrar na Rua dos Pinheiros N°70 - Jardim Felicidade.</address>
+            <a href="/"><img id="imgLocalizacao" src="./assets/mapa.PNG" /></a>
+        </section>
+    </main>
+    <footer>
+        <a href="/">
+            <img  class="logoWpp" src="assets/whatsapp_logo.png" />
+            <p class="paragrafoWpp">Clique aqui e fale conosco</p>
+        </a>
+    </footer>
+    <script src="produtos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
